@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Montserrat');
+
+body{
+  font-family: 'lora', serif;
+  font-size: 18px;
+  margin: 0;
+  color: #494949;
+  line-height: 1.6;
+  font-weight: lighter;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #A0A0A0;
+}
+
+.banner {
+  padding: 120px 0px;
+  background-image:  url('https://source.unsplash.com/random');
+  background-size: cover;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.9;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+}
+
+a:hover {
+  color: green;
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
